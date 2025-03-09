@@ -3,7 +3,7 @@ import subprocess
 import os
 import logging
 
-def download_instagram_audio(instagram_url, output_mp3_file="output_audio.mp3"):
+def download_instagram_audio(instagram_url, output_mp3_file="output_audio1.mp3"):
     try:
         logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
         
