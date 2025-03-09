@@ -17,4 +17,4 @@ def trim_mp3(input_mp3, output_mp3, start_time=0, duration=5):
     )
 
 # Example usage: Trim the first 5 seconds from input.mp3
-trim_mp3("D:/projects/song_extractor/instagram-saved-scraper/output_audio1.mp3", "output_audio.mp3", start_time=0, duration=5)
+trim_mp3("D:/projects/song_extractor/instagram-saved-scraper/output_audio1.mp3", "output_audio.mp3", start_time=0, duration=3)
