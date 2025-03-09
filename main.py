@@ -60,7 +60,7 @@ def process_song(audio_file):
         return {
             "Title": track.get("title", "Unknown"),
             "Artist": track.get("subtitle", "Unknown"),
-            "Shazam URL": track.get("share", {}).get("href", "N/A")
+           # "Shazam URL": track.get("share", {}).get("href", "N/A")
         }
     return {"Title": "Not Found", "Artist": "Not Found", "Shazam URL": "N/A"}
 
